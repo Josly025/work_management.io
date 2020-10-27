@@ -2,12 +2,18 @@ const util = require("util");
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({
+  //host server
   host: "localhost",
-  // Your username
+
+  //Your PORT;
+  port: 3306,
+
+  //User
   user: "root",
-  // Your password
-  password: "",
-  database: "employees"
+
+  //PASSWORD
+  password: "Grantjos12",
+  database: "employee_tracker",
 });
 
 connection.connect();
