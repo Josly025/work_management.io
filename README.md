@@ -1,6 +1,11 @@
 ### Title **** Employee Management Tracker 
 ## Description ***
-    The goal of this project was to create a management interface to organize employee postions. The project uses node, inquirer, and sql to view employees by various departments and managers. Additionally, the inquirer prompts allow a user to add, remove, and  update employee information. This information is available to the user through logged tables in ther terminal.  
+    The goal of this project was to create a management interface 
+    to organize employee postions. The project uses node, inquirer, 
+    and sql to view employees by various departments and managers.
+    Additionally, the inquirer prompts allow a user to add, remove, and
+    update employee information. This information is available to the
+    user through logged tables in ther terminal.  
 ## Table of Contents ****
 * [Installation Instructions](##Installation_Instructions)
 * [Usage Information](##Usage_Information)
@@ -9,7 +14,8 @@
 ## Installation_Instructions ***
      Node, inquirer, console.table,  and SQl should be installed. 
 ## Usage_Information ***
-     Use the command line iterface to navigate to adding, removing, and viewing employee tables. 
+     Use the command line iterface to navigate to adding,
+     removing, and viewing employee tables. 
 ## Credits 
      w3schools & javascript.info
 ## Contribution_Guidlines ***
@@ -20,4 +26,5 @@
 ### GitHub Username ***
     Josly025 
 ## License ***
-    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+    (https://opensource.org/licenses/MIT)
