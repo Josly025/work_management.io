@@ -116,11 +116,13 @@ async function loadMainPrompts() {
       return quit();
   }
 }
-
+//
+//wait until promise has returned
 async function viewEmployees() {
   const employees = await db.findAllEmployees();
 
   console.log("\n");
+  //view table in console
   console.table(employees);
 
   loadMainPrompts();

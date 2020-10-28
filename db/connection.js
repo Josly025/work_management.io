@@ -1,25 +1,25 @@
+// util package - enables us to use promisify
 const util = require("util");
+
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({
-  //host server
-  host: "localhost",
+  host: "localhost", //host server
 
-  //Your PORT;
-  port: 3306,
+  port: 3306, //Your PORT;
 
-  //User
-  user: "root",
+  user: "root", //User
 
-  //PASSWORD
-  password: "Grantjos12",
+  password: "Grantjos12", //db password - user
   database: "employee_tracker",
 });
 
+//using connection variable and calling connection
 connection.connect();
 
 // Setting up connection.query to use promises instead of callbacks
 // This allows us to use the async/await syntax
 connection.query = util.promisify(connection.query);
 
+//promisify method - util package that callback
 module.exports = connection;
